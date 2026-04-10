@@ -12,6 +12,7 @@ export const Airdrop = () => {
     setTimeout(() => setShowEmojis(false), 3000);
     await connection.requestAirdrop(wallet.publicKey!, 1000000000);
   };
+  
 
   return (
     <>
